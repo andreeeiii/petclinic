@@ -28,12 +28,12 @@
             true
         </property>
 
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <!-- List of XML mapping files -->
-        <mapping class = "pet.clinic.veterinarian.Veterinarian"/>
-        <mapping class = "pet.clinic.pet.Pet"/>
-        <mapping class = "pet.clinic.consult.Consult"/>
+        <mapping class = "pet.clinic.model.Veterinarian"/>
+        <mapping class = "pet.clinic.model.Pet"/>
+        <mapping class = "pet.clinic.model.Consult"/>
 
     </session-factory>
 </hibernate-configuration>
